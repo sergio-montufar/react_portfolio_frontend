@@ -1,5 +1,5 @@
 # Netlify URL
-https://glittering-licorice-d374ae.netlify.app/index.html
+https://main--glittering-licorice-d374ae.netlify.app/
 
 # Getting Started with Create React App
 
