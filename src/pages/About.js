@@ -16,6 +16,7 @@ const About = (props) => {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line
     getAboutData()
   }, [])
 

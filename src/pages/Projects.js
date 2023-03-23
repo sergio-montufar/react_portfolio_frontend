@@ -12,6 +12,7 @@ const Projects = (props) => {
   useEffect(() => {
     // eslint-disable-next-line
     getProjectsData();
+    // eslint-disable-next-line
   }, [])
 
   const loaded = () => {
