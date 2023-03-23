@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 
 const About = (props) => {
   // create state to hold about data
+  // eslint-disable-next-line
   const [about, setAbout] = useState(null);
 
   // create a function to make api call

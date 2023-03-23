@@ -10,6 +10,7 @@ const Projects = (props) => {
   }
 
   useEffect(() => {
+    // eslint-disable-next-line
     getProjectsData();
   }, [])
 
@@ -18,7 +19,7 @@ const Projects = (props) => {
     return projects.map((project) => (
       <div className="project-div">
         <h1>{project.name}</h1>
-        <img src={project.image} />
+        <img src={project.image} alt="project"/>
 
         <div className="buttons">
           <a href={project.git}>
