@@ -18,6 +18,7 @@ const About = (props) => {
   useEffect(() => {
     // eslint-disable-next-line
     getAboutData()
+    // eslint-disable-next-line
   }, [])
 
   // define function loaded that will return JSX needed once the data is returned
